@@ -1,0 +1,72 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Mulish', sans-serif;}
+html{scroll-behavior: smooth;}
+
+body {
+    overflow-x: hidden !important;
+    background: -o-linear-gradient(rgba(0, 0, 50, 0.5),rgba(0,0,50,0.5));
+  }
+/*007bff*/
+/*--------------------heading------------------------------*/
+.healthheading{
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(0, 123, 255, 0.404);
+}
+.healthheading h1{
+  text-align:center;  
+  font-weight:bolder;
+  font-family: 'Mulish', sans-serif;
+  color: rgba(6, 15, 61, 0.911);
+}
+/*----------------------------------------navbar--------------------------------------------*/
+a{
+  color: rgba(6, 15, 61, 0.911);
+}
+/*---------------------------------------cousal image-------------------------------------------------------*/
+.carousel-item img{
+  height:490px;
+  width: 800px;
+}
+/*------------------------------------------about---------------------------------------------------------*/
+.sub_section{background-color: rgba(209, 244, 248,0.5);} 
+/*--------------------------------------------login-------------------------------------------------------------*/
+.login-form{
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  position:absolute;
+  color:black;  
+  margin-top: 50px;
+}
+
+.login-form h1{
+  font-size: 40px;  
+  text-transform: uppercase;  
+}
+
+.login-form label{
+  font-size: 20px;
+  margin: 15px 5px;
+  
+}
+
+.login-form input{
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;  
+}
+
+.login-form button{
+  font-size: 18px;
+  font-weight: bold;  
+  margin: 20px 0;
+  padding: 10px 15x;
+  width: 50%;
+  border-radius: 5px;
+  border: 0;
+}
+
